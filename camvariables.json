@@ -1,0 +1,140 @@
+{
+  "input_datatypes": [ ],
+  "input_namespaces": [ ],
+  "output_namespace": "",
+  "input_groups": [ ],
+  "output_groups": [ ],
+  "template_input_params": [ ],
+  "template_output_params": [
+    {
+      "name": "network_subnets",
+      "label": "Network Subnets",
+      "description": "A map with keys of form subnet_region/subnet_name and values being the outputs of the google_compute_subnetwork resources used to create corresponding subnets.",
+      "group_name": "",
+      "secured": false,
+      "hidden": false,
+      "shortname": "",
+      "type": "string"
+    },
+    {
+      "name": "network_network",
+      "label": "Network Network",
+      "description": "The created network",
+      "group_name": "",
+      "secured": false,
+      "hidden": false,
+      "shortname": "",
+      "type": "string"
+    },
+    {
+      "name": "network_route_names",
+      "label": "Network Route Names",
+      "description": "The route names associated with this VPC",
+      "group_name": "",
+      "secured": false,
+      "hidden": false,
+      "shortname": "",
+      "type": "string"
+    },
+    {
+      "name": "network_subnets_flow_logs",
+      "label": "Network Subnets Flow Logs",
+      "description": "Whether the subnets will have VPC flow logs enabled",
+      "group_name": "",
+      "secured": false,
+      "hidden": false,
+      "shortname": "",
+      "type": "string"
+    },
+    {
+      "name": "network_subnets_private_access",
+      "label": "Network Subnets Private Access",
+      "description": "Whether the subnets will have access to Google API's without a public IP",
+      "group_name": "",
+      "secured": false,
+      "hidden": false,
+      "shortname": "",
+      "type": "string"
+    },
+    {
+      "name": "network_subnets_regions",
+      "label": "Network Subnets Regions",
+      "description": "The region where the subnets will be created",
+      "group_name": "",
+      "secured": false,
+      "hidden": false,
+      "shortname": "",
+      "type": "string"
+    },
+    {
+      "name": "network_network_name",
+      "label": "Network Network Name",
+      "description": "The name of the VPC being created",
+      "group_name": "",
+      "secured": false,
+      "hidden": false,
+      "shortname": "",
+      "type": "string"
+    },
+    {
+      "name": "network_project_id",
+      "label": "Network Project Id",
+      "description": "VPC project id",
+      "group_name": "",
+      "secured": false,
+      "hidden": false,
+      "shortname": "",
+      "type": "string"
+    },
+    {
+      "name": "network_network_self_link",
+      "label": "Network Network Self Link",
+      "description": "The URI of the VPC being created",
+      "group_name": "",
+      "secured": false,
+      "hidden": false,
+      "shortname": "",
+      "type": "string"
+    },
+    {
+      "name": "network_subnets_secondary_ranges",
+      "label": "Network Subnets Secondary Ranges",
+      "description": "The secondary ranges associated with these subnets",
+      "group_name": "",
+      "secured": false,
+      "hidden": false,
+      "shortname": "",
+      "type": "string"
+    },
+    {
+      "name": "network_subnets_self_links",
+      "label": "Network Subnets Self Links",
+      "description": "The self-links of subnets being created",
+      "group_name": "",
+      "secured": false,
+      "hidden": false,
+      "shortname": "",
+      "type": "string"
+    },
+    {
+      "name": "network_subnets_ips",
+      "label": "Network Subnets Ips",
+      "description": "The IPs and CIDRs of the subnets being created",
+      "group_name": "",
+      "secured": false,
+      "hidden": false,
+      "shortname": "",
+      "type": "string"
+    },
+    {
+      "name": "network_subnets_names",
+      "label": "Network Subnets Names",
+      "description": "The names of the subnets being created",
+      "group_name": "",
+      "secured": false,
+      "hidden": false,
+      "shortname": "",
+      "type": "string"
+    }
+  ]
+}
